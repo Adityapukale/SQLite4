@@ -42,7 +42,6 @@ public class Insert extends SQLiteOpenHelper {
         contentValues.put(Pass,pass);
         contentValues.put(Name,name);
 
-
         long result=db.insert(TbName,null,contentValues);
 
         if(result==-1)
